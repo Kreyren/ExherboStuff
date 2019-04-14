@@ -10,6 +10,6 @@ CBUILD="x86_64-pc-linux-gnu"
 # MAKEOPTS="-j8" - For Exherbo, use build_options:jobs in options.conf rather than MAKEOPTS, Why?
 
 # We have access to CATEGORY, PN etc, which we can use for per-package settings
-if [[ "${CATEGORY}/${PN}" == "sys-apps/paludis" ]] ; then
+if [[ "${CATEGORY}/${PN}" == "sys-apps/paludis" ]]; then
     CXXFLAGS="${CXXFLAGS} -g -ggdb3"
 fi
