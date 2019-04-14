@@ -1,5 +1,5 @@
 format="exndbam"
-[-d /bedrock] && location="/bedrock/strat/exherbo/var/db/paludis/repositories/cross-installed/i686-pc-linux-gnu" || location="/var/db/paludis/repositories/cross-installed/i686-pc-linux-gnu"
+location="${root}/var/db/paludis/repositories/cross-installed/i686-pc-linux-gnu"
 name="i686-pc-linux-gnu"
 split_debug_location="/usr/i686-pc-linux-gnu/lib/debug"
 tool_prefix="i686-pc-linux-gnu-"

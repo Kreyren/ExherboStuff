@@ -1,1 +1,1 @@
-[-d /bedrock ] && world="/bedrock/strat/exherbo/" || world="/"
+world="${root}/var/db/paludis/repositories/installed/world"
