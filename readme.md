@@ -6,4 +6,5 @@ This is paludis configuration for DREAMON system.
 
 ### CHEATSHEET
 SOURCE: http://paludis.exherbo.org/
+
 `cave resolve package` == Install stuff
