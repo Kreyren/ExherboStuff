@@ -1,6 +1,5 @@
 # SYNTAX: category/package: flag=value || {-,}flag
-*/* -*
-# fuck profile!
+*/* -* # fuck profile!
 
 */* vulkan threads
 # vulkan - enable vulkan for everything, sane?
@@ -8,7 +7,6 @@
 
 */* build_options: jobs=8
 
-*/* targets: -* x86_64-pc-linux-gnu 
-# TODO: cherrypick 32-bit 
+*/* targets: -* x86_64-pc-linux-gnu # TODO: cherrypick 32-bit 
 
 */* VIDEO_CARDS: -* amdgpu radeonsi
