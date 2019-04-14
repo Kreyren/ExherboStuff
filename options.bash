@@ -1,4 +1,4 @@
-# SYNTAX: category/package: flag=value
+# SYNTAX: category/package: flag=value || {-,}flag
 */* -* # fuck profile
 
 */* vulkan threads
