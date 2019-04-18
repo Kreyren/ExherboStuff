@@ -1,0 +1,5 @@
+location = ${root}/etc/paludis
+sync = git@github.com:Kreyren/ExherboStuff.git
+format = repository
+priority = 9999
+## Always higgest -> Load first

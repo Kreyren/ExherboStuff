@@ -1,1 +1,0 @@
-world="${root}/var/db/paludis/repositories/installed/world"
