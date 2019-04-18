@@ -1,4 +1,4 @@
-l# Set basic build options
+## Set basic build options
 # COMMON_FLAGS="`gcc -### -E - -march=native 2>&1 | sed -r '/cc1/!d;s/(")|(^.* - )|( -mno-[^\ ]+)//g'` -Os -pipe"
 COMMON_FLAGS="-O2 -march=sandybridge -pipe"
 CFLAGS="${COMMON_FLAGS}"
