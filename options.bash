@@ -1,13 +1,16 @@
-## SYNTAX.conf: category/package: flag=value || {-,}flag
-## SYNTAX.bash: {<,>,=,<=,=>}category/package-version {-,}useflag BUILD=OPTIONS="-j8"
+## SYNTAX: category/package: flag=value || {-,}flag
+## Using bash for further if checks
 
-*/* -* vulkan threads
+echo "*/* -* vulkan threads"
 # fuck profile!
 # vulkan - enable vulkan for everything, sane?
 # threads - Allows using all CPU threads for everything, sane?
 
-*/* BUILD_OPTIONS="-j8"
+echo "*/* BUILD_OPTIONS: --jobs 8"
 
-*/* VIDEO_CARDS="-* amdgpu radeonsi"
+echo "*/* VIDEO_CARDS: -* amdgpu radeonsi"
+# amdgpu preffered
+# radeonsi required by mesa (based on gentoo)
 
-*/* TARGETS="-* x86_64-pc-linux-gnu" # TODO: cherrypick 32-bit
+echo "*/* TARGETS: -* x86_64-pc-linux-gnu"
+# TODO: cherrypick 32-bit
