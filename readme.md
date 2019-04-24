@@ -9,4 +9,4 @@ SOURCE: http://paludis.exherbo.org/
 
 `cave resolve package` == Install stuff
 
-`cave resolve -x1 repository/repoA` == Fetching required repo from unavailable repo for package A
+`cave resolve -x1 repository/repoA` == Fetching required repo from unavailable repo for package A refferenced on https://exherbo.org/docs/faq.html#masked_by_unavailable
